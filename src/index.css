@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #f97316;
+  --color-brand-orange-hover: #ea580c;
+  --color-brand-orange-bg: #1e1b16;
+  --color-immersive-bg: #050505;
+  --color-immersive-card: rgba(255, 255, 255, 0.02);
+  --color-immersive-border: rgba(255, 255, 255, 0.05);
+}
+
+@layer utilities {
+  .immersive-grid-dots {
+    background-image: radial-gradient(rgba(249, 115, 22, 0.1) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}
+
